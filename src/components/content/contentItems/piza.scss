@@ -1,0 +1,33 @@
+.pizza-block__image:hover {
+  animation: transformpizza 3s;
+}
+@keyframes transformpizza {
+  from {
+    transform: rotate(45deg);
+  }
+
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.trasf_type{
+  border: 1px solid rgb(219, 211, 211);
+  border-radius: 10px;
+}
+
+.trasf_type:hover {
+
+animation: transform_type 3s;
+}
+
+@keyframes transform_type {
+from{
+background-color: rgb(244, 255, 241);
+border: 1px solid rgb(90, 82, 83);
+  }
+  to {
+background-color: rgb(62, 243, 12);
+border: 1px solid rgb(241, 245, 241);
+  }
+}
